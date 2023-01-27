@@ -2,14 +2,14 @@ import time
 
 import sys
 
-# def typingPrint(text, sleep):
-#   for character in text:
-#     sys.stdout.write(character)
-#     sys.stdout.flush()
-#     time.sleep(sleep)
-#
-# typingPrint("Welcome back, Mr. Anderson", 0.2)
-# typingPrint(".....", 0.5)
+def typingPrint(text, sleep):
+  for character in text:
+    sys.stdout.write(character)
+    sys.stdout.flush()
+    time.sleep(sleep)
+
+typingPrint("Welcome back, Mr. Anderson", 0.2)
+typingPrint(".....", 0.5)
 
 USER_MENU = "\nType list to list movies, type add to add movies to the list, search database or type q to quit the program\n"
 
